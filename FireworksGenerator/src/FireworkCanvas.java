@@ -12,5 +12,6 @@ public class FireworkCanvas extends JFrame{
 
     public void init(){
 
+        setSize(100, 100);
     }
 }
