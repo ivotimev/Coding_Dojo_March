@@ -5,8 +5,12 @@ import java.awt.*;
  * Created by Dell on 09/03/2017.
  */
 public class FireworkCanvas extends JFrame{
-    public FireworkCanvas() throws HeadlessException {
+    public FireworkCanvas() {
         super("Fireworks Generator");
+        init();
+    }
+
+    public void init(){
 
     }
 }
